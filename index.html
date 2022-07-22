@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Web Designer</title>
+    <link href="./main.css" rel="stylesheet">
+</head>
+<body>       <!--navbar -->
+             <nav class="navbar">
+                <div class="logo"><span style="color: black;"> CARS FEATURES</span></div>
+                <ul class="nav-links">
+                    <input type="checkbox" id="checkbox_toggle">
+                    <label class="navbar_icon" for="checkbox_toggle">&#9776;</label>
+                    <div class="menu">
+                        <li><a href="#homepagelink">Home</a></li>
+                        <li><a href="#aboutpagelink">About</a></li>
+                        <li><a href="#servisepagelink">Services</a></li>
+                        <li><a href="#contentpagelink">Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <!--home page -->
+            <div class="homeimage" id="homepagelink">
+                <img src="./images/home image.jpg" height="700px" width="1520px " style="opacity: 0.7;">
+            </div>
+            <br>
+            
+            <br>
+            
+            <!--about page -->
+            <div id="aboutpagelink">
+                <h1 class="aboutcars">About our cars </h1>
+            </div>
+            <br>
+            <br>
+            <div>
+               <p class="pagetext">Our company Automotive Manufacturers Pvt Ltd (AMPL) was incorporated in 1948. It is one of the most respected dealerships in the country known for its fair business practices. We are authorized dealers of Maruti Suzuki India Ltd since 1986. We are here to make your long cherished dream of owning a car a reality. We leave no stone unturned to make sure that the experience of buying or servicing a car is world class. Our passionate & trained workforce supported by state of the art technology & facilities is committed to make you feel comfortable at all times. Our customer service personnel ensure that all your queries are appropriately answered and our technical staff is qualified and up to date with the latest automobile technology advancements. With our strong presence in the state of Maharashtra with multiple Maruti dealerships in 9 districts, we are future ready to create new benchmarks in customer delight.</p>
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <div>
+                <img src="./images/aboutpage1 (1).jpg" height="300px" width="300px"></div>
+                <div>
+                <img src="./images/aboutpage2.jpg" height="300px" width="300px"><br></div>
+                <div>
+                <img src="./images/aboutpage3.jpg" height="300px" width="300px"><br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr style="color: black;">
+            <br>
+            <!--servise page-->
+            <div id="servisepagelink">
+                <h1 class="servies">servies</h1>
+            </div>
+            <div class="serviespage">
+                <div> <a href="#"><img src="./images/carservies1 (1).jpg" height="150px" width="150px" ></a> <h3>bike wheel ckecking</h3></div>
+                <div><a href="#"><img src="./images/carservies1 (2).jpg"  height="150px" width="150px"> </a><h3>All Servies</h3></div>
+                <div><a href="#"><img src="./images/carservies1 (3).jpg"  height="150px" width="150px"> </a><h3>Engine Cheking</h3></div>
+                <div><a href="#"><img src="./images/carservies1 (4).jpg"  height="150px" width="150px"></a> <h3>wheels repairing</h3></div>
+                <div><a href="#"><img src="./images/carservies1 (5).jpg"  height="150px" width="150px"></a> <h3>Engine oil check</h3></div>
+            </div>
+             <br>
+             <br>
+             <br>
+             <br>
+             
+            <div>
+                <button class="serviesbutton"><a href="#"> new servies...</a></button><br><br>
+             <p class="serviestext">A motor vehicle service or tune-up is a series of maintenance procedures carried out at a set time interval or after the vehicle has traveled a certain distance. The service intervals are specified by the vehicle manufacturer in a service schedule and some modern cars display the due date for the next service electronically on the instrument panel. A tune-up should not be confused with engine tuning, which is the modifying of an engine to perform better than the original specification, rather than using maintenance to keep the engine running as it should</p>
+             
+            </div>
+            <hr>
+            <br>
+            <br>
+            <!--gallary-->
+            <div id="gallarypagelink">
+            <h1 style="text-align:center;" class="headgallary">Manufacturing place </h1>
+            </div>
+            <div class="gallary">
+                <div> <img src="./images/serviesimage (1).jpg" height="300px" width="300px" ></div>
+                <div><img src="./images/serviesimage (2).jpg"  height="300px" width="300px"> </div>
+                
+            </div>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <!--contact-->
+            <div id="contentpagelink">
+                <h1 class="contact" >contact us for servies:- </h1>
+            </div>
+            <br>
+            <br>
+            <div>
+                <form class="form">
+                    <fieldset style="padding: 40px;">
+                       <legend>PERSONAL INFORMATION:-</legend>
+                          <label for="NAME"> first name:</label>
+                          <input type="text"><br><br>
+                          <label for="Last name">Last name:</label>
+                          <input type="text"><br><br>
+                          <label for="phone number ">phone number:</label>
+                          <input type="number" required><br><br>
+        
+                        
+                            
+                         
+                          select your gender :-<br>
+                          <label for="male" >male</label>
+                          <input type="radio" id="male" name="gender" value="male">
+        
+                          <label for="female" >female</label>
+                          <input type="radio" id="female" name="gender" value="female">
+        
+                          <label for="other" >other </label>
+                          <input type="radio" id="other" name="gender" value="other"><br><br>
+        
+                          <label for="email" id="email">email:</label>
+                          <input type="email" required><br><br>
+                          <label for="date" id="date">Date:</label>
+                          <input type="date"><br><br>
+                          <input type="submit">
+                    </fieldset>
+        
+        
+                </form>
+            </div>
+            <br>
+            <br>
+            <footer>
+                <p class="content">@copyright content</p>
+            </footer>
+
+            
+            
+            
+</body>
+</html>

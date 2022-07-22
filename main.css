@@ -1,0 +1,174 @@
+/* font-family: 'Edu QLD Beginner', cursive; */
+/*font-family: 'Edu TAS Beginner', cursive;*/
+li{
+    list-style-type: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightblue;
+    
+}
+.nav-links a{
+    color: black;
+}
+.logo{
+    font-size: 25px;
+}
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover{
+    background-color:white;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+.menu li{
+    padding: 5px 15px;
+}
+input[type=checkbox]{
+    display: none;
+}
+.navbar_icon{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+ 
+.aboutcars{
+    text-align: center;
+    text-decoration: underline blueviolet;
+    background-color: lightblue;
+}
+.pagetext{
+    text-align:justify;
+    
+    
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+   
+   margin: 10px;
+}
+.container div{
+    margin: 10px;
+}
+.servies{
+    text-align: center;
+    background-color: lightblue;
+}
+.serviespage{
+    display: flex;
+   margin-top: 100px;
+   justify-content: center;
+}
+.serviespage div{
+    padding: 30px;
+    border: 1px solid black;
+    margin-left: 20px;
+    
+}
+.serviespage div:hover{
+    background-color: lightblue;
+}
+.serviestext{
+    text-align: justify;
+    height: 150px;
+    width: 1100px;
+    padding-left: 400px;
+}
+.serviesbutton{
+    margin-left: 700px;
+    padding: 5px;
+    background-color: lightblue;
+}
+.gallary{
+    display:flex;
+   
+    margin-top: 100px;
+   justify-content: center;
+    
+}
+.gallary div{
+    padding: 20px;
+}
+.headgallary{
+    background-color: lightblue;
+}
+.content{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+footer{
+    background-color: black;
+}
+/* @media(max-width:768px){
+    .menu{
+        display: none;
+        position: absolute;
+        background-color: white;
+         right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    .menu li:hover{
+        display: inline-block;
+        background-color: tomato;
+        transition: 0.3s ease;
+    }
+    .menu li+li{
+        margin-top: 12px;
+
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .navbar_icon{
+        display: block;
+    }
+} */
+@media(max-width:768px){
+    .menu{
+        display: none;
+        position: absolute;
+        background-color: tomato;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    .menu li:hover{
+        display: inline-block;
+        background-color: tomato;
+        transition: 0.3s ease;
+    }
+    .menu li+li{
+        margin-top: 20px;
+
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .navbar_icon{
+        display: block;
+    }
+}
